@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DeanCo</title>
         <link rel="stylesheet" href="style.css">
- 
     </head>
     <body>
-        <header class="hero">
-            <h1>DeanCo</h1>
-            <h3>Making bank with the bois</h3>
-            <nav class="hero-nav">
-                <a class="nav-link" href="#about-us">About Us</a>
-                <a class="nav-link" href="#services">Services</a>
-                <a class="nav-link" href="#prices">Prices</a>
-                <a class="nav-link" href="#contact-us">Contact Us</a>
-                <span class="nav-slider"></span>
-            </nav>
+        <nav class="hero-nav">
+            <a class="logo" href="#home"><img src="assets/the-bois.jpg" alt="logo" class="logo"></a>
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#prices">Prices</a>
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+        </nav>
+        <header id="home" class="hero">
+            <h1 class="hero-title">DeanCo</h1>
+            <h3 class="hero-title">Making bank with the bois</h3>
         </header>
         <main class="main">
             <section class="content-panel" id="about-us">
-                <h1>About Us</h1>
-                <h3>The Bois</h3>
+                <div class="grid-container">
+                    <div class="center-div">
+                        <h1>About Us</h1>
+                        <h3>The Bois</h3>
+                    </div>
+                    <div class="about-1 flex-container">
+                        <img class="about-image" src="assets\worker-1.jpg" alt="worker">
+                        <p class="image-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt leo in scelerisque sodales. Cras porta felis ut ex feugiat, in aliquam turpis 
+                            consectetur.</p>
+                    </div>
+
+                    <div class="about-2 flex-container">
+                        <img class="about-image" src="assets\worker-2.jpg" alt="worker">
+                        <p class="image-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt leo in scelerisque sodales.</p>
+                    </div>
+    
+                    <div class="about-3 flex-container">
+                        <img class="about-image" src="assets\worker-3.jpg" alt="worker">
+                        <p class="image-description">Morbi vitae erat eu nisl feugiat semper non vitae ante. 
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut congue in eros et semper.</p>
+                    </div>
+    
+                    <div class="about-4 flex-container">
+                        <img class="about-image" src="assets\worker-4.jpg" alt="worker">
+                        <p class="image-description">Cras pulvinar felis purus, at facilisis diam posuere et.</p>
+                    </div>
+                </div>
+
+
+
             </section>
             <section class="content-panel" id="services">
                 <h1>Services</h1>
@@ -40,6 +67,6 @@
         <footer>
 
         </footer>
-        <script href="main.js"></script>
+        <script href="./main.js"></script>
     </body>
 </html>
